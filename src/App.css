@@ -10,11 +10,12 @@
   width: 100px;
   position: relative;
   left: 15px;
+  cursor: pointer;
 }
 
 .nav-center{
   display: flex;
-  margin: 30px calc((100% - 1100px) / 2);
+  margin: 50px calc((100% - 1100px) / 2);
 }
 
 .nav-center li {
@@ -22,6 +23,7 @@
   padding: 0 20px;
   font-family: 'Jua', sans-serif;
   font-size: 23px;
+  cursor: pointer;
 }
 
 .line {
@@ -37,9 +39,10 @@
   font-family: 'Jua', sans-serif;
   display: flex;
   color: #acacac;
+  cursor: pointer;
 }
 
 .nav-right p {
-  margin: 0;
+  margin: 0 15px 0 0;
   padding: 1px 5px;
 }

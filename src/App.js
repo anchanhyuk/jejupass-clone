@@ -27,7 +27,7 @@ function App() {
         </div>
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/webproject1/" element={<Home />} />
 
       </Routes>
     </div>

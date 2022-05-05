@@ -14,15 +14,14 @@ import RoomServiceIcon from '@mui/icons-material/RoomService';
 import LocalCafeIcon from '@mui/icons-material/LocalCafe';
 
 
+
 const Home = () => {
   const [select, setselect] = useState("flight");
   const userselect=(witchselect)=>{
     setselect(witchselect);
   }
 
-  useEffect(()=>{
-    console.log(select);
-  },[ select ])
+
   return (
     <div className="home-nav">
       <div className="select">
@@ -47,9 +46,23 @@ const Home = () => {
       <div className={select == "cafe" ? "active" : "disabled"}>
         <Cafeselect/>
       </div>
-
+      <div className="youtube">.
+        <div className="overflow">
+          <h3>MAKE JEJU BETTER</h3>
+          <p>
+            청정 제주를 지키는 여행,<br></br>
+            제주패스와 함께해 주세요
+          </p>
+          <p>
+          참여하기 &#62;
+          </p>
+        </div>
+        <iframe className="youtubeplayer" src="https://www.youtube-nocookie.com/embed/H69tJmsgd9I?controls=0&autoplay=1&loop=1&playlist=H69tJmsgd9I&mute=1 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   )
+
 }
 
-export default Home
+
+export default Home;
