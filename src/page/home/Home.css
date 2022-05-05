@@ -1,3 +1,46 @@
-div{
-  background-color: black;
+.home-nav{
+  background-color: rgb(245, 245, 245);  
+    
+
+}
+
+.select {
+  display: flex;
+  Justify-content: center;
+  padding-top: 50px;
+}
+.select button {
+  background-color: white;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 0;
+  transform: scale(1.5);
+}
+
+.select button.active {
+  background-color: #2E9AFE !important;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.select button.active:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 40px auto;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #2E9AFE;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.home-nav > .active{
+  display: block;
+}
+
+.home-nav > .disabled{
+  display: none;
 }

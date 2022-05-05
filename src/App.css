@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 .nav-top {
+  min-width: 1200px;
   display: flex;
   justify-content: center;
   background-color: rgb(245, 245, 245)
