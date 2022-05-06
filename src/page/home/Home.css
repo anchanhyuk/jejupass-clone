@@ -180,10 +180,16 @@
 .tema .swiper .swiper-slide {
   text-align: center;
   background: #fff;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .tema .swiper .swiper-slide img{
   width: 400px;
   height: 700px;
-  border-radius: 30px;
+  
+}
+.tema .swiper .swiper-slide img:hover{
+  transform: scale(1.05);
+  transition-duration: .5s;
 }

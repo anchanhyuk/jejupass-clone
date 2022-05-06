@@ -75,7 +75,8 @@ const Home = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={30}
           slidesPerView={3}
-          pagination={{ clickable: true }}>
+          pagination={{ clickable: true }}
+          loop={true}>
             <SwiperSlide><img src='https://images.memphistours.com/large/907770781_IMG-Dubai.jpg' /></SwiperSlide>
             <SwiperSlide><img src='https://images.memphistours.com/large/907770781_IMG-Dubai.jpg' /></SwiperSlide>
             <SwiperSlide><img src='https://images.memphistours.com/large/907770781_IMG-Dubai.jpg' /></SwiperSlide>
@@ -88,16 +89,19 @@ const Home = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={30}
-          slidesPerView={3}>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
-          <SwiperSlide><img src='https://imagescdn.gettyimagesbank.com/500/201708/jv10912633.jpg' /></SwiperSlide>
+          slidesPerView={3}
+          loop={true}>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
+          <SwiperSlide><img src='https://image.yes24.com/goods/99425243/XL' /></SwiperSlide>
         </Swiper>
       </div>
-      
+
     </div>
   )
 
