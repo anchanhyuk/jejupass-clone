@@ -27,7 +27,7 @@ function App() {
         </div>
       </div>
       <Routes>
-        <Route path="/webproject1/" element={<Home />} />
+        <Route path="/jejupass-clone/" element={<Home />} />
 
       </Routes>
       <footer>
