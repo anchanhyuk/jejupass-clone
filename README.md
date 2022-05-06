@@ -5,4 +5,4 @@
 https://www.jejupass.com/web
 
 바로 보기
-https://anchanhyuk.github.io/webproject1/
+https://anchanhyuk.github.io/jejupass-clone/
