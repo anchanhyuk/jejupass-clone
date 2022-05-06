@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jejupass-clone/static/css/main.b60c6539.css",
+    "main.js": "/jejupass-clone/static/js/main.5e1a5aaa.js",
+    "static/js/787.34f2df77.chunk.js": "/jejupass-clone/static/js/787.34f2df77.chunk.js",
+    "index.html": "/jejupass-clone/index.html",
+    "main.b60c6539.css.map": "/jejupass-clone/static/css/main.b60c6539.css.map",
+    "main.5e1a5aaa.js.map": "/jejupass-clone/static/js/main.5e1a5aaa.js.map",
+    "787.34f2df77.chunk.js.map": "/jejupass-clone/static/js/787.34f2df77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b60c6539.css",
+    "static/js/main.5e1a5aaa.js"
+  ]
+}
