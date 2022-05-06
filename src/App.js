@@ -30,6 +30,9 @@ function App() {
         <Route path="/webproject1/" element={<Home />} />
 
       </Routes>
+      <footer>
+        푸터
+      </footer>
     </div>
   );
 }
